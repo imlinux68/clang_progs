@@ -11,5 +11,14 @@ int main() {
         if (b < c) {
             printf("Largest number is: %d",c);
         }
+
+        else if (b > c) {
+            printf("Largest number is: %d",b);
+        }
     }
+    else {
+        printf("Largest number is: %d",a);
+    }
+
+    return 0;
 }
